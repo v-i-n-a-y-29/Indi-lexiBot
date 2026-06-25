@@ -1,0 +1,52 @@
+# ── Virtual environment ────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Python cache ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ── Environment / secrets ──────────────────────────────────────────────────
+.env
+.env.*
+*.env
+
+# ── Large data files (PDFs, processed JSONL, FAISS binaries) ──────────────
+data/
+processed/
+vectorstore/
+
+# ── HuggingFace model cache ────────────────────────────────────────────────
+.cache/
+~/.cache/huggingface/
+
+# ── IDE / editor ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+
+# ── OS clutter ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Build / dist ───────────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ── Logs & reports ─────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Jupyter ────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Agent internals ────────────────────────────────────────────────────────
+.agents/

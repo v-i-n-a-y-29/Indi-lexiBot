@@ -1,0 +1,16 @@
+langchain
+langchain-community
+langchain-huggingface
+faiss-cpu
+sentence-transformers
+transformers
+torch
+pdfplumber
+pypdf
+python-dotenv
+tqdm
+numpy
+pandas
+langchain-core
+langchain-text-splitters
+langchain-google-genai
